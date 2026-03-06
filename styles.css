@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(0, 255, 30);
+}
+
+@keyframes happy{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+img{
+    animation: happy 0.3s infinite;
+}
+
+.contenedor{
+    transform: translate(230px,200px)
+}
